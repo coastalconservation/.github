@@ -5,7 +5,7 @@ This project will inform a strategic conservation plan for monitoring and preser
 In collaboration with The Nature Conservancy, we will utilize statistical analysis to model current species distribution ranges and predict potential 
 futures to be compiled in a public-facing web dashboard.
 
-## Project Deliverables
+## Project Overview
 
 We envision the below deliverables to be compiled into a web-based interactive map where users can explore the species distribution models,
 with possible side-panels showing changes in abundance over time, and the report card value per species.
