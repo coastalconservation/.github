@@ -5,7 +5,12 @@ This project will inform a strategic conservation plan for monitoring and preser
 In collaboration with The Nature Conservancy, we will utilize statistical analysis to model current species distribution ranges and predict potential 
 futures to be compiled in a public-facing web dashboard.
 
-## Project Overview
+## Project Summary
+
+Point Conception, located within the Dangermond Preserve, is one of California’s most prominent ecological transition zones, marking a major boundary between northern and southern marine ecoregions. Its unique position at the intersection of two major currents creates a steep gradient in oceanographic and ecological conditions, acting as a natural barrier to the range expansions of many marine species. Rocky intertidal species are vulnerable to climate change-induced habitat changes, including ocean acidification, rising sea levels, changes in water temperature, and more frequent and intense storms. Species ranges are expected to shift in response to a changing climate, but it is not known how biogeographic barriers such as Point Conception might affect or constrain such shifts. Currently, there is no comprehensive understanding of the ranges of intertidal species found in or near the Point Conception region. Using long-term ecological survey data from the MARINe network, this project will locate species range edges along the California coast and identify the species with range edges at or near Point Conception. Additionally, by incorporating current and projected environmental variables drawn from Bio-Oracle, the project will characterize potential species range shifts within the Point Conception region. In collaboration with The Nature Conservancy’s Dangermond Preserve, an interactive dashboard will be developed displaying current and potential future ranges of a variety of key intertidal species, which will be used both by conservation scientists and by donors and community members to understand the preserve's unique ecological significance. By improving data accessibility and visualization, the dashboard will support more effective conservation planning and environmental decision-making.
+
+
+## Project Deliverables
 
 We envision the below deliverables to be compiled into a web-based interactive map where users can explore the species distribution models,
 with possible side-panels showing changes in abundance over time, and the report card value per species.
