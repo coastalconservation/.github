@@ -14,7 +14,7 @@ Assessing Range Shifts of Coastal Species to Inform Conservation in California�
 
 [Project Summary](#project-summary)
 
-[Repository Structure](#repository-structure)
+[Objectives](#objectives)
 
 [Data Sources](#data-sources)
 
@@ -33,58 +33,27 @@ More information relating to this project can be found on our [Bren project page
 
 Point Conception, located within the Dangermond Preserve, is one of California’s most prominent ecological transition zones, marking a major boundary between northern and southern marine ecoregions. Its unique position at the intersection of two major currents creates a steep gradient in oceanographic and ecological conditions, acting as a natural barrier to the range expansions of many marine species. Rocky intertidal species are vulnerable to climate change-induced habitat changes, including ocean acidification, rising sea levels, changes in water temperature, and more frequent and intense storms. Species ranges are expected to shift in response to a changing climate, but it is not known how biogeographic barriers such as Point Conception might affect or constrain such shifts. Currently, there is no comprehensive understanding of the ranges of intertidal species found in or near the Point Conception region. Using long-term ecological survey data from the MARINe network, this project will locate species range edges along the California coast and identify the species with range edges at or near Point Conception. Additionally, by incorporating current and projected environmental variables drawn from Bio-Oracle, the project will characterize potential species range shifts within the Point Conception region. In collaboration with [The Nature Conservancy’s Dangermond Preserve](https://www.nature.org/en-us/about-us/where-we-work/united-states/california/stories-in-california/dangermond-preserve/?gclsrc=aw.ds&gad_source=1&gclid=CjwKCAiA2cu9BhBhEiwAft6IxId_BYjIHuN0FsWf_QelTl1TllgDfMKbc1aBCOvTv84xS9uQ-zx7PxoCboQQAvD_BwE), an interactive dashboard will be developed displaying current and potential future ranges of a variety of key intertidal species, which will be used both by conservation scientists and by donors and community members to understand the preserve's unique ecological significance. By improving data accessibility and visualization, the dashboard will support more effective conservation planning and environmental decision-making.
 
-## Repository Structure
 
-```
-coastal_species_analysis 
-|
-├── data/                # Raw and processed data
-│
-├── scripts/             # Analysis and modeling scripts     
-│	    │
-│	    ├── range_classifcation/      # Scripts for species list & map creation 
-│	    │
-│	    ├── summary_table/           # Scripts for computing summary tables
-│    	│
-│    	├── modeling/             # Scripts for species distribution modeling
-│	    │
-│	    ├── R/     # Functions   
-│
-├── outputs/             # Results, figures, and reports
-│
-├── README.md      # Project overview & setup instructions
-│   
-└── .gitignore           
+INSERT RANGE EDGE DIAGRAM 
 
-dangermond_dashboard
-|
-├── app/
-│   ├── ui.R             # User interface components
-│   ├── server.R         # Server-side logic
-│   ├── global.R         # Loads shared functions & data
-│   ├── www/             # Static assets (CSS, images, etc.)
-│
-├── data/                # Processed data pulled from analysis repo
-│
-├── R/             # Functions used in the dashboard
-│               
-├── README.md        # Overview & setup instructions
-│
-└── .gitignore 
+## Objectives 
 
-```
+This project aims to serve The Nature Conservancy’s Dangermond Preserve by identifying intertidal species ranges that have been historically and currently present in the area, and help to predict which of these species are more vulnerable to climate change-induced habitat shifts or loss. To achieve this goal, our team will identify and map rocky shore species' range edges along California’s coast, characterize and predict potential species range shifts occurring within the Point Conception region and establish a ranking system to prioritize monitoring for coastal range extensions or retractions within the Preserve.
 
 
 ## Data Sources 
 
-### Data files (acquired from data request from MARINe, early 2024):
-- MARINe_longterm_data -> yearly photoplot data of targeted species assemblages
-  - Phototranssummarysd_download.csv = summarized photo transect data, averaged across plots
-  - Phototranraw_download.csv = raw photo transect data, percent cover per plot
+### Intertidal Species Survey Data 
+- Acquired from data request from MARINe, early 2024):
 - MARINe_biodiversity_data -> community-wide biodiversity data
   - cbs_data_CA_2023.xlsx = raw biodiversity data, includes its own metadata tab, point contact data for transects, quadrats and swaths
   - marine_species_taxonomy.csv = metadata on species taxonomy
  
+### Environmental Variable Data 
+- Avaliable 
+
+
+INSERT DATA SOURCES TABLE 
 
 ## Authors and Contributors 
 
