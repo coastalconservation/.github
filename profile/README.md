@@ -22,7 +22,6 @@ Assessing Range Shifts of Coastal Species to Inform Conservation in California�
 
 
 
-
 ## Overview
 
 This is a capstone project for the [Master of Environmental Data Science](https://bren.ucsb.edu/masters-programs/master-environmental-data-science) at [Bren School of Environmental Science and Management](https://bren.ucsb.edu/), University of California, Santa Barbara
@@ -38,22 +37,25 @@ INSERT RANGE EDGE DIAGRAM
 
 ## Objectives 
 
-This project aims to serve The Nature Conservancy’s Dangermond Preserve by identifying intertidal species ranges that have been historically and currently present in the area, and help to predict which of these species are more vulnerable to climate change-induced habitat shifts or loss. To achieve this goal, our team will identify and map rocky shore species' range edges along California’s coast, characterize and predict potential species range shifts occurring within the Point Conception region and establish a ranking system to prioritize monitoring for coastal range extensions or retractions within the Preserve.
+This project supports The Nature Conservancy’s Dangermond Preserve by identifying the historical and current ranges of intertidal species in the area and assessing their vulnerability to climate change-induced habitat shifts or loss. To achieve this goal, our team will:
+
+- Identify and map the range edges of rocky shore species along California’s coast.
+- Characterize and predict potential range shifts occurring within the Point Conception region.
+- Establish a ranking system to prioritize species for monitoring based on the likelihood of coastal range extensions or retractions within the Preserve.
+
+The code used to conduct these analyses can be found in the [coastal-species-analysis](https://github.com/coastalconservation/coastal_species_analysis) repository. All components of the project are compiled into an interactive dashboard, built using R Shiny, available in the [dashboard](https://github.com/coastalconservation/dashboard) repository.
 
 
 ## Data Sources 
 
-### Intertidal Species Survey Data 
-- Acquired from data request from MARINe, early 2024):
-- MARINe_biodiversity_data -> community-wide biodiversity data
-  - cbs_data_CA_2023.xlsx = raw biodiversity data, includes its own metadata tab, point contact data for transects, quadrats and swaths
-  - marine_species_taxonomy.csv = metadata on species taxonomy
- 
-### Environmental Variable Data 
-- Avaliable 
+| Data                                                                                         | Source 
+| -------------------------------------------------------------------------------------------- | ------------------------------------- |
+| **Coastal Biodiversity Survey Data**: community-wide biodiversity data of intertidal species |  Acquired from data request from MARINe, early 2024) |
+| **Bio-ORACLE Environmental variable rasters**: Environmental inputs for species distribution models  |  Through the `{biooracler}` R package via ERDDAP server |
+| **California Boundary**: Shapefile used for mapping | US Census Bureau TIGER/Line Shapefiles | 
+| **Dangermond Preserve Simple Boundary**: Shapefile used for mapping | Dangermond Preserve Geospatial Hub | 
+| **Coastline Segements**: Line segement of california coastline  | Created by Dr. Erica Nielsen using ArcGIS | 
 
-
-INSERT DATA SOURCES TABLE 
 
 ## Authors and Contributors 
 
