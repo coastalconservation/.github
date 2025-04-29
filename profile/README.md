@@ -1,13 +1,10 @@
+<h2 align="center"> 
+  
+<img src="https://github.com/coastalconservation/.github/blob/main/photos/cc-hexlogo-lowquality.png?raw=true" alt="Coastal Conservation Capstone group logo: hex sticker with rocky coastline and lighthouse illustration" width="300">
+
 <h1 align="center">
 
-coastalconservation 
-
-</h1>
-
-<h2 align="center">
-
 Assessing Range Shifts of Coastal Species to Inform Conservation in Californiaâ€™s Biogeographic Transition Zones
-
 
 ## Table of Contents 
 [Overview](#overview)
@@ -19,7 +16,6 @@ Assessing Range Shifts of Coastal Species to Inform Conservation in Californiaâ€
 [Data Sources](#data-sources)
 
 [Authors and Contributors](#authors-and-contributors) 
-
 
 
 ## Overview
