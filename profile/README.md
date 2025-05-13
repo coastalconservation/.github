@@ -46,6 +46,8 @@ The code used to conduct these analyses can be found in the [coastal-species-ana
 
 ## Data Sources 
 
+Read more about our data in the [*Data Sources*](https://github.com/coastalconservation/coastal_species_analysis?tab=readme-ov-file#data-sources) section of our `coastal-species-analysis` repository. 
+
 | Data                                                                                         | Source 
 | -------------------------------------------------------------------------------------------- | ------------------------------------- |
 | **Coastal Biodiversity Survey Data**: community-wide biodiversity data of intertidal species |  Acquired from data request from MARINe, early 2024) |
