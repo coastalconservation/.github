@@ -41,8 +41,9 @@ This project supports The Nature Conservancy’s Dangermond Preserve by identify
 - Characterize and predict potential range shifts occurring within the Point Conception region.
 - Establish a ranking system to prioritize species for monitoring based on the likelihood of coastal range extensions or retractions within the Preserve.
 
-The code used to conduct these analyses can be found in the [coastal-species-analysis](https://github.com/coastalconservation/coastal_species_analysis) repository. All components of the project are compiled into an interactive dashboard, built using R Shiny, available in the [dashboard](https://github.com/coastalconservation/dashboard) repository.
+The code used to conduct these analyses can be found in the [coastal-species-analysis](https://github.com/coastalconservation/coastal_species_analysis) repository. All components of the project are compiled into an interactive web application, built using R Shiny, available in the [dashboard](https://github.com/coastalconservation/dashboard) repository.
 
+Link to interactive web application: [CRISP: California Ranges of Intertidal Species Portal]( https://tnc-dangermond.shinyapps.io/crisp/)
 
 ## Data Sources 
 
